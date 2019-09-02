@@ -13,7 +13,6 @@ install:
   - hexo init blog
   - mv blog/* . && rm -r blog
   - git clone https://github.com/theme-next/hexo-theme-next.git themes/next
-  - mv themes/_config.yml themes/next/
 script:
   - hexo generate
 deploy:
